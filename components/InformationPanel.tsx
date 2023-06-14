@@ -69,7 +69,7 @@ function InformationPanel({ city, lat, long, results }: Props) {
         </div>
       </div>
       <div className="space-y-2 py-5">
-        <div className="flex items-center space-x-2 px--4 py-3 border border-[#6F90CD] rounded-md bg-[#405885]">
+        <div className="flex items-center space-x-2 px-4 py-3 border border-[#6F90CD] rounded-md bg-[#405885]">
           <SunIcon className="h-10 w-10 text-gray-400" />
           <div className="flex-1 flex justify-between items-center">
             <p className="font-extralight">Sunrise</p>
@@ -82,7 +82,7 @@ function InformationPanel({ city, lat, long, results }: Props) {
             </p>
           </div>
         </div>
-        <div className="flex items-center space-x-2 px--4 py-3 border border-[#6F90CD] rounded-md bg-[#405885]">
+        <div className="flex items-center space-x-2 px-4 py-3 border border-[#6F90CD] rounded-md bg-[#405885]">
           <MoonIcon className="h-10 w-10 text-gray-400" />
           <div className="flex-1 flex justify-between items-center">
             <p className="font-extralight">Sunset</p>
